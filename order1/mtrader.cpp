@@ -49,5 +49,11 @@ static bool default_value(json::Value data, bool defval) {
 
 
 
+MTrader::VisRes MTrader::visualizeSpread(unsighed int sma, unsigned int stdev, double mult) {
+  VisRes res;
+  if (chart.empty()) return res;
+  double
+}
+
 
 
